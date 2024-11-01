@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubUserApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryDarkColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="DayNightColor">@color/secondaryDarkColor</item>
+        <item name="DayNightRetro">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="itemIconTint">@color/yellow</item>
+        <item name="itemTextColor">@color/yellow</item>
+    </style>
+
+    <style name="base_toolbar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BackgroundClr">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabBackground">@color/white</item>
+        <item name="tabTextColor">@color/black</item>
+        <item name="tabRippleColor">@color/secondaryDarkColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="tabIconTint">@color/black</item>
+        <item name="tabIndicatorColor">@color/secondaryDarkColor</item>
+        <item name="tabSelectedTextColor">@color/secondaryDarkColor</item>
+    </style>
+</resources>

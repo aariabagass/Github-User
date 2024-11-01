@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Github User App</string>
+    <string name="home_page">Github Users</string>
+    <string name="back_button">back button</string>
+    <string name="detail_page">Detail User</string>
+    <string name="location">Location</string>
+    <string name="username">username</string>
+    <string name="repository">Repository</string>
+    <string name="following">Following</string>
+    <string name="bottom_splash">Aria Bagas</string>
+    <string name="company">Company</string>
+    <string name="followers">Followers</string>
+
+    <string name="search">Search...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="find_github_user">Find Github User</string>
+    <string name="nothing_found">Nothing Found</string>
+    <string name="tab_following">Following</string>
+    <string name="tab_followers">Followers</string>
+    <string name="no_users_found">No Users Found</string>
+    <string name="iv_home">iv_home</string>
+    <string name="ib_fav">ib_fav</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="light">light</string>
+    <string name="dark">dark</string>
+    <string name="favorited">Favorited !</string>
+    <string name="logo">logo</string>
+    <string name="iv_followers_not">iv_followers_not</string>
+    <string name="no_favorites_found">No favorites yet!.</string>
+</resources>
